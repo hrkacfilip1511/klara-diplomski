@@ -1,0 +1,38 @@
+.home-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.post-item p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.post-item p:last-child {
+  margin-bottom: 0;
+}
